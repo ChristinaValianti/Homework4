@@ -95,20 +95,4 @@ public class SentenceUtils {
         return sentenceLists;
     }
 
-//    /**
-//     * Extracts words from the given sentence using a regular expression, removes unwanted
-//     * characters, and returns a list of cleaned, lowercase words.
-//     *
-//     * @param sentence Input sentence to extract words from
-//     * @return List of cleaned, lowercase words extracted from the sentence
-//     */
-//    public static List<String> extractWords(String sentence) {
-//        List<String> words = new ArrayList<>();
-//        for (String word : sentence.split("\\s+")) {
-//            if (!word.isEmpty()) {
-//                words.add(word);
-//            }
-//        }
-//        return words;
-//    }
 }
